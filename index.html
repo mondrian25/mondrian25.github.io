@@ -1,379 +1,501 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <title>VAN | HTML templates</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Graphic Designer and Web Developer - MengnaWu.com</title>
 
-    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="css/lib/font-awesome.min.css">
-    <link rel="stylesheet" href="css/lib/owl.carousel.css">
-    <link rel="stylesheet" href="css/lib/owl.theme.css">
-    <link rel="stylesheet" href="css/lib/owl.transitions.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/colors/cyan.css">
-
+		<meta name="description" content="Free download theme onepage, clean and modern responsive for all"/>
+		<meta name="keywords" content="responsive, html5, onepage, themes, template, clean layout, free web"/>
+		<meta name="author" content="Mengnawu.com"/>
+		
+		<link rel="shortcut icon" href="img/favicon.png"> 
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+		
+    
+	<!-- fonts -->
+        
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+		
 </head>
+
 <body>
 
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-logo">
-            <img src="images/logo.png" alt="">
-        </div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+
+<div class="preloader" id="preloader">
+    <div class="item">
+      <img src="img/loading.gif">
     </div>
+</div>
 
-    <div class="wrapper">
+
+<div class="container">
+
+
+<!-- section start-page -->
+
+  <section class="start-page parallax-background" id="home">
+        <div class="opacity"></div> <!-- Opacity color -->
+        <div class="backgroundVideo">
+        			<video autoplay loop poster="" id="bgvid">
+                       <source src="img/background/BlackInk.mp4" type="video/mp4">
+                    </video>
+					<div class="logo"><img src="img/logo.png">
+					   <hr/><h1>Mengna Wu</h1>
+					</div>
+        	    </div>	
+  
+    
+      
+	  <div class="homeWrapper">
+	   <div class="content">
+        <div class="text">
         
-        <section id="header" class="header header-sticky" style="background-image: url="images/headerbackground.jpg";>
+         
+          <p>WEB DESIGN//GRAPHIC DESIGN//FILM EDITING</p>
+               
+        </div>
 		
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+      </div>
+	   
+     </div>
+	 
+  </section>
+  
+  <section id="margin">
+   <div class="margin">
+     <div class="arrow">
+      <a href="#about-me"><img src="img/background/arrow.png"></a>
+     </div>
+   </div>
+  </section>
 
-
-                        <div class="logo">
-                            <a href="/"><img src="images/logo.png" alt="LOGO"></a>
-                        </div>
-
-                     
-                        <button class="menu-responsive-toggle">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
-
-
-
-                        <nav>
-                            <ul class="menu-nav">
-                                <li class="menu-dropdown current">
-                                    <a href="/">Home</a>
-                                    <ul class="dropdown">
-                                        <li class="current"><a href="index.html">Home 1</a></li>
-                                        <li><a href="index2.html">Home 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-dropdown">
-                                    <a href="work-2.html">Work</a>
-                                    <ul class="dropdown">
-                                        
-                                         <li><a href="work-2.html">Work 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="menu-dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="single-project.html">Single portfolio</a></li>
-                                        <li><a href="404.html">404 page</a></li>
-                                    </ul>
-                                </li>
-                               
-                                <li><a href="contact.html">ContactMMMMMM</a></li>
-                            </ul>   
-                        </nav>
-
-
-                    </div>
-                </div>
-            </div>
-        </section><!-- /header -->
-
+  <!-- section menu mobile -->
+  
+  <section class="menu-media">
+  
+    <div class="menu-content">
+    
+      <div class="logo">Mengna</div>
+      
+      <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+    
+    </div>
+   
+  </section>
+  
+    <ul class="menu-click">
+        <a href="#home"><li href="#home">HOME</li></a>
+        <a href="#about-me"><li href="#about-me">ABOUT ME</li></a>
+        <a href="#portfolio"><li href="#portfolio">PORTFOLIO</li></a>
+        <a href="#contact"><li href="#contact">CONTACT</li></a>
         
+    </ul>
+   
+   
+  <!-- section menu -->
+  
+  <section class="menu">
 
-        <section class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-
-
-                        <div class="scroll-to text-center">
-                            <a href="#"><img src="images/v-icon.png" alt=""></a>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-md-12">
-
-
-                        <div class="slogan">
-                            <h2 class="head-title">Creative design and branding solutions for print and web.</h2>
-                        </div>
+    <div class="menu-content">
+    
+    <div class="logo">Mengna</div>
+    
+      <ul id="menu">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  
+  
+  </section>
 
 
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <a href="#" class="toggle-button">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </a><!-- /toggle-button -->
-
-
-                            <div id="filters" class="filters text-uppercase text-center">
-                                <ul class="show-filters">
-                                    <li class="select-filter"><a href="#" data-filter="*" id="all">Show all</a></li>
-                                    <li><a href="#" data-filter=".branding">Branding</a></li>
-                                    <li><a href="#" data-filter=".marketing">Marketing</a></li>
-                                    <li><a href="#" data-filter=".video">Video</a></li>
-                                    <li><a href="#" data-filter=".photography">infographic</a></li>
-									<li><a href="#" data-filter=".photography">html layout</a></li>
-                                </ul>
-                            </div><!-- /filters -->
-                    </div>
-                </div>
-
-
-                <div id="work-wrap" class="row">
-
-
-                  
-
-
-
-                    <!-- WORK ITEM -->
-                    <div class="item work-item effect-default col-xs-12 col-sm-6 col-md-4 branding marketing" >
-                        <div class="item-inner">
-                            <a class="image-wrap" href="single-project.html">
-                                <img src="images/portfolio/12.jpg" alt="" class="image">
-                            </a>
-                            <div class="caption bg-black">
-                                <div class="inner">
-                                    <h4 class="sm text-uppercase"><a href="single-project.html">DISK &amp; ENVELOP</a></h4>
-                                    <em>Branding</em>
-                                </div>
-                                <div class="work-favorite">
-                                    <i class="fa fa-heart"></i> 12
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WORK ITEM -->
+  <!-- section about me -->
+  
+  <section class="about-me" id="about-me">
+  
+  <div class="content">
+  
+    <h1>ABOUT</h1>
+    <hr/>
+	
+    <div class="introduction"><p>Hi, I'm Mengna Wu. I was born in China. I'm currently a hands-on UI designer. Check out some of my work below. </p>
+	                 <p>
+                     I'm training myself to a web developer. Because I love to execute all those fabulous visual effects myself and keep them straight to the design goals I wanted to achieve as a UI designer.
+					 </p> 
+					 <p>My design philosophy is project functionality into aesthetically pleasing. I believe the two of them are two sides of one coin. 
+					 
+					 Introducing different cultures to each other is one of my design methodologies. Difference means novelty, novelty means change, change means evolution.
+					 </p>
+					 <p>The only way to keep your design modern, is to keep trying new things.</p></div>
+					 
 					
-					 <!-- WORK ITEM -->
-                    <div class="item work-item effect-default col-xs-12 col-sm-6 col-md-4 branding marketing" >
-                        <div class="item-inner">
-                            <a class="image-wrap" href="single-project.html">
-                                <img src="images/portfolio/12.jpg" alt="" class="image">
-                            </a>
-                            <div class="caption bg-black">
-                                <div class="inner">
-                                    <h4 class="sm text-uppercase"><a href="single-project.html">DISK &amp; ENVELOP</a></h4>
-                                    <em>Branding</em>
-                                </div>
-                                <div class="work-favorite">
-                                    <i class="fa fa-heart"></i> 12
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WORK ITEM -->
+     <!--<div class="mePhoto"><img src=""></div>-->
+      <!--<div class="column-one">
+  
+        <div class="circle-one"></div>
+    
+          <h2>RESPONSIVE</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eimemod tempor incididunt</p>
+    
+      </div>
+  
+      <div class="column-two">
+  
+        <div class="circle-two"></div>
+    
+          <h2>MINIMALIST</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eimemod tempor incididunt</p>
+    
+      </div>
+  
+  
+       <div class="column-three">
+  
+        <div class="circle-three"></div>
+    
+        <h2>FREEBIES</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eimemod tempor incididunt</p>
+    
+    </div> -->
+    
+  </div>
+  
+  </section>
+  
+  <div class="clear"></div>  
 
-					 <!-- WORK ITEM -->
-                    <div class="item work-item effect-default col-xs-12 col-sm-6 col-md-4 video marketing" >
-                        <div class="item-inner">
-                            <a class="image-wrap" href="single-project.html">
-                                <img src="images/portfolio/12.jpg" alt="" class="image">
-                            </a>
-                            <div class="caption bg-black">
-                                <div class="inner">
-                                    <h4 class="sm text-uppercase"><a href="single-project.html">DISK &amp; ENVELOP</a></h4>
-                                    <em>Branding</em>
-                                </div>
-                                <div class="work-favorite">
-                                    <i class="fa fa-heart"></i> 12
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WORK ITEM -->
+  <!-- portoflio-->
 
-					 <!-- WORK ITEM -->
-                    <div class="item work-item effect-default col-xs-12 col-sm-6 col-md-4 branding marketing" >
-                        <div class="item-inner">
-                            <a class="image-wrap" href="single-project.html">
-                                <img src="images/portfolio/12.jpg" alt="" class="image">
-                            </a>
-                            <div class="caption bg-black">
-                                <div class="inner">
-                                    <h4 class="sm text-uppercase"><a href="single-project.html">DISK &amp; ENVELOP</a></h4>
-                                    <em>Branding</em>
-                                </div>
-                                <div class="work-favorite">
-                                    <i class="fa fa-heart"></i> 12
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WORK ITEM -->
+  <section class="portfolio" id="portfolio">
 
 
+    <div class="portfolio-margin">
+    
+      <h1>PORTFOLIO</h1>
+      <hr/> 
+    
+    <!-- 1 item portoflio-->
+    
+        <ul class="grid">
+        
+          <li class="wide">
+            <a href="../html/work.html">
+              <img src="img/portfolio/1.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>iSenor</p>
+                  <p class="description">Logo and Web Design</p>   
+              </div>
+            </a>
+          </li>
+          
+		  
+          <!-- 2 item portoflio-->
+          
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/2-1.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p>Crumbs Engineering</p>
+                  <p class="description">LOGO, Branding</p>               
+              </div>
+            </a>
+          </li>      
+
+          
+		  
+		  
+		  <!-- 3 item portoflio
+          
+		  
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/3.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p> 
+                  <p class="description"></p>           
+              </div>
+            </a>
+          </li>    
+          -->		  
+
+
+          <!-- 4 item portoflio
+          
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/4.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p> 
+                  <p class="description"></p>         
+              </div>
+            </a>
+          </li>   
+         
+         -->		 
+
+          <!-- 5 item portoflio
+          
+          <li class="wide">
+            <a href="#">
+              <img src="img/portfolio/5.png" alt="Portfolio item" />
+                <div class="no-text">
+                  <p></p> 
+                  <p class="description"></p>            
+              </div>
+            </a>
+          </li>    
+           
+		   -->
+
+          <!-- 6 item portoflio
+          
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/6.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 6</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>   
             
-                </div>
+            -->			
+           
+         <!-- 7 item portoflio
+          
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/7.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 7</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>    
+          
+		  -->
+		  
+          <!-- 8 item portoflio
+          
+          <li class="narrow">
+            <a href="#">
+              <img src="img/portfolio/8.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 8</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>          
+          
+		  -->
+		  
+		  
+          <!-- 9 item portoflio
+          
+          <li class="wide">
+            <a href="#">
+              <img src="img/portfolio/9.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 9</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>          
+          
+		  -->
+		  
+          <!-- 10 item portoflio
+          
+          <li class="wide">
+            <a href="#">
+              <img src="img/portfolio/10.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 11</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>         
 
-                
-
-            </div>
-        </section> <!-- /portfolio -->
+		   -->
+		  
+          <!-- 11 item portoflio
+          
+          <li class="wide">
+            <a href="#">
+              <img src="img/portfolio/11.png" alt="Portfolio item" />
+                <div class="text">
+                  <p>PORTFOLIO 11</p> 
+                  <p class="description">Your text here...</p>           
+              </div>
+            </a>
+          </li>          
+          
+		  -->
+ 
+          
+        </ul>  
 		
 		
-		<section class="text-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-block-title">We build the platforms, products, and experiences that transform businesses and help them thrive.</h3>
-						<p class="text-block-dsc">Seamlessly restore client-focused potentialities rather than functional strategic theme areas. Credibly e-enable value-added portals with clicks-and-mortar initiatives. Synergistically procrastinate excellent partnerships rather than customized supply chains.</p>
-					</div>
-				</div>
+   
+   <a href="#"><div class="read-more">Read more</div></a>
+   
+   </div>   
+         
+   </section>
 
-				<div class="row">
+  
+   <div class="clear"></div>  
+  
+  
+  
+  
+    <!-- partners-->
 
-					<div class="col-md-4">
-						<div class="text-box">
-							<div class="box-icon"><i class="fa fa-tint"></i></div>
-							<h4 class="box-title">BRAND &amp; IDENTITY</h4>
-							<p>Appropriately benchmark prospective meta-services and client-centered relationships. Globally pursue one-to-one materials via proactive alignments. clicks-and-mortar total linkage after 24/365 materials.</p>
-						</div><!-- /text-box -->
-					</div>
-
-					<div class="col-md-4">
-						<div class="text-box">
-							<div class="box-icon"><i class="fa fa-magic"></i></div>
-							<h4 class="box-title">WEB DEVELOPMENT</h4>
-							<p>Appropriately benchmark prospective meta-services and client-centered relationships. Globally pursue one-to-one materials via proactive alignments. clicks-and-mortar total linkage after 24/365 materials.</p>
-						</div><!-- /text-box -->
-					</div>
-
-					<div class="col-md-4">
-						<div class="text-box">
-							<div class="box-icon"><i class="fa fa-camera-retro"></i></div>
-							<h4 class="box-title">PHOTOGRAPHY</h4>
-							<p>Appropriately benchmark prospective meta-services and client-centered relationships. Globally pursue one-to-one materials via proactive alignments. clicks-and-mortar total linkage after 24/365 materials.</p>
-						</div><!-- /text-box -->
-					</div>
-
-				</div>
-
-			</div>
-		</section><!-- /text-block -->
-
-
-        <footer class="footer">
-            <div class="container">
+    <section class="partners parallax-background-partners" id="partners">
+    
+    <div class="opacity"></div>
+    
+      <div class="content">
+      
+        <h2>Thanks for partners</h2>
+        
+            <div class="logo">
+          
+                <a href="#"><img src="img/logos/alex1.png"></a>
+                <a href="#"><img src="img/logos/archiq.png"></a>
                 
-                <hr class="divider">
-                
-                <div class="footer-info">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="logo-footer equal-height">
-                                
-                                <a href="#"><img src="images/logo.png" alt=""></a>
-
-                                <h3 class="head-title">Graphic Design &amp; Art Direction</h3>
-                                
-                                <ul class="social-link">
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="twitter text-center equal-height">
-                                <div class="f-title">
-                                    <i class="fa fa-twitter"></i>
-                                    <a href="#">@vandesign</a>
-                                </div>
-                                <div class="slider">
-                                    <div class="item">
-                                        <p>Vivamus suscipit tortor eget felis porttitor atc volutpat pellentesque in lipsum.</p>
-                                        <a href="#">http://t.co/UIuBPMcyfc</a>
-                                    </div>
-                                    <div class="item">
-                                        <p>Efficiently procrastinate cost effective infomediaries whereas open-source alignments.</p>
-                                        <a href="#">http://t.co/UIuBPMcyfc</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="footer-slide text-center equal-height">
-                                <div class="f-title">
-                                    <i class="fa fa-camera"></i>
-                                    <a href="#">#vandesign</a>
-                                </div>
-                                <div class="slider2">
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/1.jpg" alt=""></a>
-                                    </div>
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/2.jpg" alt=""></a>
-                                    </div>
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/1.jpg" alt=""></a>
-                                    </div>
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="item">
-                                        <a href="#"><img src="images/footer/3.jpg" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <a href="#"><img src="img/logos/alex2.png"></a>
+              
             </div>
-            <div class="container">
-                <hr class="divider">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="copy-right text-center">
-                            <p>&copy; 2014 Vandesign. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-                
+      
+      </div>
+
+    </section>
+
+
+    <!-- Contact-->
+
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <hr/>       
+      
+        <div class="content">
+          
+          <div class="form">
+          
+            <form method="post" action="mail.php" name="kontakt">
+          
+            <div class="column">
+            YOUR NAME<br/><br/>
+            <input name="name" id="name" value="" />
             </div>
-        </footer>
+            
+            <div class="column-2">
+            YOUR E-MAIL<br/><br/>
+            <input name="email" id="email" value="" />
+            </div>
+          
+          
+            <div class="column-3">  
+            MESSAGE<br/><br/>        
+            <textarea id="message" name="message" ></textarea>
+            </div> 
+ 
+              <div class="button">
+                <span><input class="submit" id="submit" name="submit" type="submit" value="SEND"></span>
+              </div>
+ 
+            </form>
+          
+          </div>
+          
+          
+          <div class="contact-text">
+          
+          To contact me please mee the contact form visible<br/><br/>
+
+          When sending files, please mee<br/>
+          the following e-mail<br/><br/>
+
+          <strong>Mengna Wu</strong><br/><br/>
+
+          e-mail: <strong>mengnawu2015@gmail.com</strong><br>
+		  cellphone: <strong>(850)-566-6377</strong>
+          
+          </div>
+        
+        
+        </div>
+      
+    </section>
+
+
+    <section class="footer">
+      
+        <div class="logo"><img src="img/logo-footer.png"></div>
+        <div class="menu-footer">
+        
+          <a href="#home">Home</a>
+          
+          
+          <a href="https://www.facebook.com/mondrianwu">Facebook</a>
+          
+          <a href="#">Weibo</a>
+		  <a href="https://www.pinterest.com/mengnawu/">Pinterest</a>
+          <a href="#">Contact</a>
+        
+        </div>
+        
+        <div class="copyright">© 2015. All Rights Reserved Mengnawu.com</div>        
+    
+    
+    </section>    
+    
+
+</div>
 
 
 
+	<!-- Scripts -->
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+	<!--<script src="js/masonry.pkgd.min.js"></script>  All script -->
+	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script><!-- slider -->
 
-    </div><!-- /wrapper -->
+   <script>
+     $(function(){
+   
+       var $container = $('.grid');
+     
+       $container.imagesLoaded( function(){
+         $container.masonry({
+           itemSelector : 'li'
+         });
+       });
+     
+     });
+   </script>
+	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
+	<script src="js/script.js"></script> <!-- All script -->	
 
-    <script type="text/javascript" src="js/lib/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/lib/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript" src="js/lib/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/lib/imagesloaded.min.js"></script>
-    <script type="text/javascript" src="js/lib/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="js/lib/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
+
 </html>
