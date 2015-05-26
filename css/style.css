@@ -806,6 +806,7 @@ video#bgvid {
   float:left;
   letter-spacing:1px;
   margin-bottom:30px;
+  color:black;
 }
 
 .contact .content .form .column-2{
@@ -815,7 +816,8 @@ video#bgvid {
   height:auto;
   float:left;
   letter-spacing:1px;
-  margin-bottom:30px;  
+  margin-bottom:30px;
+  color:black;  
 }
 
 .contact .content .form .column-3{
@@ -824,6 +826,7 @@ video#bgvid {
   height:auto;
   float:left;
   letter-spacing:1px;
+  color:black;
 }
 
 .contact .content .contact-text{
