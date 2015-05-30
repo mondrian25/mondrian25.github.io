@@ -641,7 +641,6 @@ video#bgvid {
   display:block;
   margin:0 auto;
   text-align:center;
-  width:100%;
   height:100%;
   position: relative;
    -webkit-transition: all 8s ease-in;
