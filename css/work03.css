@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
 a{
   text-decoration:none;
   outline:none;
@@ -5,7 +6,7 @@ a{
 }
 
 html, body{
- 
+  font-family: 'Roboto', sans-serif;
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   color:#F3F3F3;
@@ -368,7 +369,7 @@ html, body{
 
 .lightbox{
    display:block;
-   width:100%;
+   width:80%;
    margin:0 auto;
    position:relative;
 }
