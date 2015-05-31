@@ -1,10 +1,5 @@
 ﻿/*work page style goes here */
 
-@import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
-@import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
-@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
 
 
@@ -15,7 +10,8 @@ a{
 }
 
 html, body{
- 
+   font-family: 'Roboto', sans-serif;
+  font-size:12px;
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   color:#F3F3F3;
@@ -256,6 +252,7 @@ html, body{
    height:100%;
    margin-left:auto;
    margin-right:auto;
+   margin-bottom:200px;
    position:relative;
 }
 
@@ -278,7 +275,6 @@ html, body{
    display:block;
    color:black;
    font-size:1em;
-   font-family: 'Bowlby', sans-serif;
    line-height:2em;
    margin:0 auto;
 }
