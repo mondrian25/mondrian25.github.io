@@ -626,7 +626,7 @@ video#bgvid {
 
 .grid{
   margin-top:70px;
-  width:80%;
+  width:100%;
   position:relative;
   margin-bottom:70px;
   overflow:hidden;
@@ -1278,9 +1278,9 @@ input.submit{
 
 /*portfolio edits*/
 .wide{
-   width:40%;
+   width:50%;
    float:left;
-   height:300px;
+   height:500px;
    overflow:hidden;
   
 }
