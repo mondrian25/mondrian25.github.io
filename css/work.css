@@ -1,6 +1,6 @@
 ﻿/*work page style goes here */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100;400);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
 
 
 a{
@@ -14,7 +14,7 @@ html, body{
   font-size:12px;
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
-  font-weight:400;
+  font-weight:100;
   height:100%;
 }
 
@@ -210,6 +210,7 @@ html, body{
    margin:0 auto;
    position:relative;
    background:#F3F3F3;
+ 
 }
 
 .workCover{
@@ -235,14 +236,13 @@ html, body{
    height:100%;
    margin:0 auto;
    position:relative;
-   float:right;
-   
+   margin-top:200px;
 }
 
 .workDetails{
    display:block;
    width:25%;
-   float:left;
+   float:right;
    margin-left:2%;
 
 }
@@ -253,7 +253,6 @@ html, body{
 }
 
 .workDetails img{
-   width:100%;
    height:100%;
 }
 .workImage{
@@ -380,9 +379,7 @@ html, body{
 .isensor p{
    font-size:1.5em;
    text-align:center;
-   margin-bottom:200px;
-   margin-top:50px;
-   width:60%;
+   
    margin-left:auto;
    margin-right:auto;
 }
@@ -392,10 +389,36 @@ h3{
    font-size:5em;
    letter-spacing:10px;
    color:#de9b33;
+   margin-bottom:100px;
    
 
 }
 
 hr{
-    width:350px;
+    width:150px;
+	display:inline-block;
+	text-align:center;
+	float:left;
+}
+
+.workWrapper p{
+  
+   text-align:left;
+   font-size:2em;
+   
+}
+
+h4{
+   margin-bottom:0px;
+   display:block;
+   font-size:2.5em;
+   font-family:Roboto, sans-serif;
+   font-weight:700;
+}
+
+.isensor{
+   display:block;
+   width:50%;
+   margin-left:10%;
+   margin-top:100px;
 }

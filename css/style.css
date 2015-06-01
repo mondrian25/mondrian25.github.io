@@ -343,6 +343,7 @@ video#bgvid {
    line-height:60px;
    float:left;
    list-style: none;
+   font-family:Lato,sans-serif;
  }
 
 .menu-content ul{
