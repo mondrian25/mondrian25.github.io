@@ -426,3 +426,15 @@ h4{
    margin-left:10%;
    margin-top:100px;
 }
+
+
+@media screen and (max-device-width: 800px){
+   .project{
+      width:100%;
+   }
+   
+   .workImage img{
+      height:auto;
+	  width:auto;
+   }
+}
