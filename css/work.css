@@ -428,13 +428,35 @@ h4{
 }
 
 
-@media screen and (max-device-width: 800px){
-   .project{
-      width:100%;
+@media only screen 
+and (max-width: 800px){
+   .workCover{
+       background-size:100%;
+	   background-repeat:no-repeat;
+	   height:300px;
+	   left:-10px;
+	   width:105%;
+   }
+    
+	.workDescpt{
+	   top:40%;
+	}
+	.workDescpt p{
+	   margin:0 auto;
+	   padding:0;
+	   width:80%;
+	}
+	
+	.workDetails{
+	   float:none;
+	   margin:0 auto;
+	   width:80%;
+	}
+   .workImage img{
+	  width:100%;
    }
    
-   .workImage img{
-      height:auto;
-	  width:auto;
+   .workWrapper p{
+      font-size:1.5em;
    }
 }

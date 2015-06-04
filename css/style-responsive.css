@@ -1,10 +1,7 @@
-/* Thomsoon.com - OnePage CSS Responsive
+/* mengnawu.com - OnePage CSS Responsive
 -- version 1.0
--- Copyright (c) 2014 Thomsoon.com
--- licensed under the MIT
---
--- http://www.thomsoon.com/
---
+-- Copyright (c) 2015 mengnawu.com
+
 */
 
 
@@ -48,15 +45,7 @@ h1 {
   width:106px;
 }
 
-.about-us .column-one, .about-us .column-two{
-  width:300px;
-  margin-bottom:20px;
-}
 
- .about-us .content .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
 
 .portfolio .portfolio-margin{
   width:300px;
@@ -224,6 +213,9 @@ h1 {
 
 .contact{ 
   margin:0 auto;
+  width:100%;
+  height:800px;
+  background:white;
 }
 
 .footer{

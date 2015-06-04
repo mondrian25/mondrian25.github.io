@@ -108,7 +108,7 @@ h1 span{
 	bottom: 0;
 	height:100%;
 	width:100%;
-	background:url(img/blackInk.png);
+	background:url(img/background/blackInk.png);
 	background-size:cover;
 	opacity:1;	
 	z-index:-9;}
@@ -124,18 +124,9 @@ video#bgvid {
    background: url() no-repeat;
    background-size: cover;
    opacity:0.4;
-   
-	
 }
 
-@media screen and (max-device-width: 800px) {
-.start-page{
- background: url(img/background/blackInk.png) no-repeat center center fixed; 
- }
- 
-video#bgvid 
-{ display: none; }
-}
+
 
 .start-page{
   position:relative;
@@ -662,7 +653,7 @@ video#bgvid
   display:block;
   margin:0 auto;
   text-align:center;
-  height:100%;
+  width:100%;
   position: relative;
    -webkit-transition: all 4s ease-in;
 	-moz-transition: all 4s ease-in;
@@ -1301,7 +1292,6 @@ input.submit{
 .wide{
    width:50%;
    float:left;
-   height:500px;
    overflow:hidden;
   
 }
@@ -1368,4 +1358,26 @@ input.submit{
 
 #home .logo{
    z-index:1000000;
+}
+
+
+@media only screen 
+and (max-width: 800px)
+ {
+.start-page{
+ background: url(img/background/blackInk.png) no-repeat center center fixed; 
+ }
+ 
+video#bgvid 
+{ display: none; }
+
+h1 img{
+   width:80%;
+}
+
+.wide{
+   width:100%;
+   height:
+}
+
 }
