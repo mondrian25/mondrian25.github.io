@@ -374,12 +374,11 @@ html, body{
    margin:0 auto;
    position:relative;
    margin-top:150px;
+   overflow:hidden;
 }
 
 .lightbox img{
    opacity:.3;
-   margin:10px;
-   margin-top:10px;
    -webkit-transition: all 1s ease-0ut;
 	-moz-transition: all 1s ease-out;
 	-ms-transition: all 1s ease-out;
@@ -399,3 +398,11 @@ html, body{
    position:relative;
 }
 
+
+.frame{
+   width:200px;
+   height:200px;
+   overflow:hidden;
+   margin:10px;
+   float:left;
+}
