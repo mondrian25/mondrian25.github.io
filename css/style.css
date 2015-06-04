@@ -130,7 +130,7 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
 .backgroundVideo{
- background: url(img/blackInk.png) no-repeat center center fixed; 
+ background: url(img/background/blackInk.png) no-repeat center center fixed; 
  }
  
 video#bgvid 
