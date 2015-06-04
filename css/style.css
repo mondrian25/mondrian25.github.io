@@ -21,8 +21,9 @@ creating date:
   position:fixed;
   width:100%;
   height:100%;
-  background:white;
+  background:#101010;
   z-index:99999;
+  margin:0 auto;
 }
  
 .preloader .item{
@@ -30,13 +31,16 @@ creating date:
   width:100px;
   height:100px;
   left:50%;
-  top:50%;
+  top:45%;
   margin-left:-50px;
   margin-top:-50px;
 } 
+  
 
+  
 
-html, body{
+ html, body {
+ 
   font-family: 'Roboto', sans-serif;
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
@@ -945,6 +949,8 @@ input.submit{
   bottom:0;
   width:100%;
   background:#3c3c3c;
+  z-index:9999999;
+  top:-300px;
 }
 
 .footer .logo{
