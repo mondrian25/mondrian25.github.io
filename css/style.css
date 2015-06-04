@@ -114,6 +114,7 @@ h1 span{
 	z-index:-9;}
 
 video#bgvid {
+   display:block;
    position: fixed; 
    right: 0; 
    bottom: 0;
@@ -123,8 +124,17 @@ video#bgvid {
    background: url(img/blackInk.png) no-repeat;
    background-size: cover;
    opacity:0.4;
+   
+	
 }
 
+@media screen and (max-device-width: 800px) {
+.backgroundVideo{
+ background: url(img/blackInk.png) #000 no-repeat center center fixed; 
+ }
+ 
+#bgvid { display: none; }
+}
 
 .start-page{
   position:relative;
