@@ -1203,7 +1203,7 @@ input.submit{
 	text-indent:1.5em;
 	font-size:1.3em;
 	text-justify:inter-word;
-	font-weight:600;
+	font-weight:100;
 }
 
 #about-me p + p{

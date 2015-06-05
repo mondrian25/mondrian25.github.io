@@ -6,7 +6,7 @@
 
 
 /* iPad (portrait) */
-@media (min-width: 320px) and (max-width: 579px) {
+@media and (max-width: 579px) {
 
 .menu{
   display:none;
@@ -102,6 +102,9 @@ textarea{
 
 .contact{ 
   margin:0 auto;
+  width:100%;
+  height:800px;
+  background:white;
 }
 
 .footer{
