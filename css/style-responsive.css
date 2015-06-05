@@ -1,11 +1,6 @@
-/* mengnawu.com - OnePage CSS Responsive
--- version 1.0
--- Copyright (c) 2015 mengnawu.com
-
-*/
 
 
-/* iPad (portrait) */
+/* Tablets and Phones (portrait) */
 @media and (max-width: 579px) {
 
 .menu{
@@ -39,6 +34,10 @@ h1 {
 
 .about-us .content{
   width:300px;
+}
+
+#about-me.content{
+   top:0px;
 }
 
 .about-us hr,.portfolio .portfolio-margin hr, .contact hr {
