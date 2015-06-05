@@ -5,7 +5,7 @@
 
 /* Font Google - strong reaload time */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
 
 
@@ -40,6 +40,10 @@ creating date: 3/5/2015 - 6/3/2015
   
 /*universal*/
 
+html,body,div,section,p{
+   display:block;
+}
+
  html, body {
  
   font-family: 'Roboto', sans-serif;
@@ -51,6 +55,7 @@ creating date: 3/5/2015 - 6/3/2015
 }
 
 a{
+  
   text-decoration:none;
   outline:none;
   font-size:12px;
@@ -63,8 +68,14 @@ h1{
   text-transform:uppercase;
   letter-spacing:6px;
   line-height:1.2;
+  margin:0 auto;
+  width:100%;
 }
 
+h1 img{
+   width:100%;
+   margin:0 auto;
+}
 p{
   font-size:1em;
   color:white;
@@ -115,7 +126,7 @@ h1 span{
 
 video#bgvid {
    display:block;
-   position: fixed; 
+   position: absolute; 
    right: 0; 
    bottom: 0;
    min-width: 100%; 
@@ -150,7 +161,7 @@ video#bgvid {
 }
 
 .start-page .opacity{
-  position:fixed;
+  position:relative;
   width:100%;
   height:100%;
   background:url(../img/background/backgroundOverlay.png); /* Standard Off */
@@ -279,7 +290,7 @@ video#bgvid {
 }
 
 .menu-media .menu-content .logo {
-   color:white;
+   color:black;
    font-weight:700;
    font-size:24px;
    width:200px;
@@ -391,6 +402,7 @@ video#bgvid {
 /* About ME */
 
 .about-me{
+  height:120%;
   top:-130px;
   position:relative;
   width:100%;
@@ -635,7 +647,6 @@ video#bgvid {
   margin-top:70px;
   width:100%;
   position:relative;
-  margin-bottom:70px;
   overflow:hidden;
   margin-left:auto;
   margin-right:auto;
@@ -684,7 +695,7 @@ video#bgvid {
 }
 
 .grid .text:hover {
-  opacity:.5;
+  opacity:.6;
 }
 
 .grid .no-text {
@@ -705,14 +716,14 @@ video#bgvid {
   opacity:1;
 }
 
-.grid p {
-  font-size: 18px;
+.wide  p {
+  font-size: 2em;
   text-align:center;
   line-height:26px;
-  margin-top:40px;
-  font-weight: bold;
+  margin-top:30%;
+  font-weight: 700;
   letter-spacing:1px;
-  color: #FFF;
+  color: #000;
 }
 
 .grid p.description {
@@ -798,7 +809,6 @@ video#bgvid {
   background:white;
   z-index:10;
   overflow:hidden;
-  margin-bottom: 300px;  
 }
 
 
@@ -815,7 +825,6 @@ video#bgvid {
   text-align:center;
   margin-top:120px;
   letter-spacing:6px;
-  font-weight:bold;
   text-transform:uppercase;
   line-height:1.2;
 }
@@ -824,7 +833,7 @@ video#bgvid {
   color: black;
   margin-top:30px;
   background-color: black;
-  height: 1px;
+  height: .5px;
   width:106px;
   border:0;
 }
@@ -879,7 +888,7 @@ video#bgvid {
 }
 
 strong{
-  font-weight:700;
+  font-weight:400;
   font-size:1.2em;
   line-height:1em;
   letter-spacing:2px;
@@ -952,7 +961,6 @@ input.submit{
   width:100%;
   background:#3c3c3c;
   z-index:9999999;
-  top:-300px;
 }
 
 .footer .logo{
@@ -976,6 +984,7 @@ input.submit{
 
 
 .footer .menu-footer a{
+  display:inline;
   line-height:46px;
   padding:10px;
   color:#a4a4a4;
@@ -1160,21 +1169,18 @@ input.submit{
    }
    
 #home .logo{
-   width:10%;
-   height:auto;
-   top:15%;
-   left:23%;
-   position:absolute;
+   height:auto;   
+   position:relative;
    clear:both;
    z-index:100000;
    opacity:1;   
 }
 
 #home .logo img{
-   width:100%;
-   height:100%;
    z-index:100000;
    opacity:1;
+   margin:0 auto;
+   display:block;
 }
 
 
@@ -1220,9 +1226,6 @@ input.submit{
    color:#AAA5A5;
 }
 
-.about-me{
-   height:100%;
-}
 
 .footer{
    position:relative;
@@ -1231,13 +1234,7 @@ input.submit{
 .portfolio{
    background:none;
 }
-#home .logo{
-   position:relative;
-   top:30%;
-   margin:0 auto;
-   left:0;
-   z-index:100000;
-}
+
 
 .homeWrapper{
    position:relative;
@@ -1255,11 +1252,12 @@ input.submit{
    background-repeat:no-repeat;
    background-position:center;
    background-size:cover;
-   height:800px;
+  
    
 }
 
 .about-me .introduction{
+   height:100%;
    width:80%;
    padding:10px;
    margin:0 auto;   
@@ -1284,6 +1282,7 @@ input.submit{
 }
 
 #about-me .content{
+   height:100%;
    width:70%;
    top:100px;
 }
@@ -1308,7 +1307,7 @@ input.submit{
 .grid .text{
    position:absolute;
    top:0;
-   background:none repeat scroll 0% 0% #000;
+   background:none repeat scroll 0% 0% #fff;
 }
 
 
@@ -1345,10 +1344,15 @@ input.submit{
    padding:30px;
 }
 
+h1 img{
+   width:50%;
+}
+
 .portfolio-margin h1{
    font-size:8em;
    display:block;
-   padding:30px;
+   padding-top:30px;
+   padding-bottom:30px;
 }
 
 .partners .logo img{
@@ -1356,16 +1360,43 @@ input.submit{
 }
 
 
+#home .banner{
+   width:60%;
+   position:relative;
+   margin:0 auto;
+   top:35%;
+ 
+}
+
 #home .logo{
    z-index:1000000;
+}
+
+
+#home .text{
+   display:block;
+   position:relative;
+   width:60%;
+   margin:0 auto;
+   text-align:center;
+   z-index:1000000;
+}
+
+.partners.logo a{
+   display:inline;
+   float:left;
 }
 
 
 @media only screen 
 and (max-width: 800px)
  {
-.start-page{
- background: url(img/background/blackInk.png) no-repeat center center fixed; 
+ 
+.start-page .opacity{
+   background:url(../img/background/blackInk.png); 
+   background-repeat:no repeat;
+   background-position:center center;
+   background-opacity:.65;
  }
  
 video#bgvid 
@@ -1381,3 +1412,4 @@ h1 img{
 }
 
 }
+

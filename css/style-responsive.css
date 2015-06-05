@@ -1,7 +1,8 @@
 
 
 /* Tablets and Phones (portrait) */
-@media and (max-width: 579px) {
+@media only screen
+and (max-width: 579px) {
 
 .menu{
   display:none;
