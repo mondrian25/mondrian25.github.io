@@ -81,7 +81,6 @@ p{
   color:white;
   font-weight:300;
   letter-spacing:1px;
-  margin-top:40px;
 }
 
 
@@ -402,7 +401,6 @@ video#bgvid {
 /* About ME */
 
 .about-me{
-  height:120%;
   top:-130px;
   position:relative;
   width:100%;
@@ -1159,12 +1157,11 @@ input.submit{
 
 
 #home p{
-   display:block;
-   padding:10px 20px;
+   padding:10px;
   
    font-family:'Roboto',sans-serif;
    font-size:1em;
-   letter-spacing:3px;
+   letter-spacing:2px;
    
    }
    
@@ -1377,7 +1374,7 @@ h1 img{
    display:block;
    position:relative;
    width:60%;
-   margin:0 auto;
+   margin:50px auto;
    text-align:center;
    z-index:1000000;
 }
@@ -1387,6 +1384,9 @@ h1 img{
    float:left;
 }
 
+.banner .text p{
+   display:block;
+}
 
 @media only screen 
 and (max-width: 800px)
