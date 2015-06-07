@@ -1,8 +1,8 @@
-/* 
-*/
-/*color pallete*/
+/*color pallete:
 
+  a on hover:#be1e2d
 
+ */
 /* Font Google - strong reaload time */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
@@ -55,7 +55,6 @@ html,body,div,section,p{
 }
 
 a{
-  color:black;
   text-decoration:none;
   outline:none;
   font-size:12px;
@@ -567,6 +566,7 @@ video#bgvid {
 
 
 .about-me a{
+     color:black;
     -webkit-transition: all 0.6s ease-in;
 	-moz-transition: all 0.6s ease-in;
 	-ms-transition: all 0.6s ease-in;
