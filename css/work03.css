@@ -398,6 +398,15 @@ html, body{
    position:relative;
 }
 
+.lightbox h1{
+   color:white;
+   font-size:2em;
+   letter-spacing:.1em;
+   font-weight:600;
+   display:block;
+   position:relative;
+   margin-bottom:50px;
+}
 
 .frame{
    width:200px;

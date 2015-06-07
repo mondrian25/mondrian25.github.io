@@ -548,7 +548,7 @@ video#bgvid {
   width:183px;
   height:47px;
   position:relative;
-  margin:50px auto 100px;
+  margin:50px auto;
   line-height:47px;
   border:1px solid #333333;
   text-transform:uppercase;
@@ -564,6 +564,21 @@ video#bgvid {
 	transition: all 0.6s ease-in;
 	letter-spacing:1px;
 }
+
+
+.about-me a{
+    -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+	letter-spacing:1px;
+}
+
+.about-me a:hover{
+   color:white;
+}
+
 .about-me .read-more:hover{
   background:#be1e2d;
   color:white;
@@ -745,7 +760,7 @@ video#bgvid {
   width:100%;
   z-index:10;
   height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
+  background:url('../img/background/BlackInk.mp4') 0px 0px fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
