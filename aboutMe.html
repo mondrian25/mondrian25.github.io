@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <title> iSensor- Mengna.com</title>
+    <title> Resume- Mengna.com</title>
 
 		<meta name="description" content="Free download theme onepage, clean and modern responsive for all"/>
 		<meta name="keywords" content="responsive, html5, onepage, themes, template, clean layout, free web"/>
@@ -22,8 +22,14 @@
 	<link rel="stylesheet" type="text/css" href="css/.css"/> 
 	
 	<style>
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
 section, div, html, body, img{
    display:block;
+}
+
+html{
+   width:100%;
 }
 
 body{
@@ -39,7 +45,7 @@ section{
 div{
    width:100%;
    margin-left:10%;
-   margin-top:3%;
+   
 }
 
 img{
@@ -48,7 +54,8 @@ img{
 }
 
 a{
-   font-family:sans-serif;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
    font-size:24px;
    color:black;
     -webkit-transition: all 0.6s ease-in;
@@ -61,24 +68,45 @@ a{
 a:hover{
    color:#be1e2d;
 }
+
+.nav{
+   margin-top:3%;
+}
+
+
+
 	</style>
 	</head>
 	
-	<body style="background:#F3F3F3; width=100%">
+	<body style="background:#F3F3F3;">
 		
 
   
 
   
   <section style="width:100%;">
-     <div>
-	    <a href="index.html">//Back</a>
+     <div class="nav">
+	 
+	   <a href="index.html"><span><< <span> Back<span></a>
+
 	 </div>
 	 
      <img src="img/background/aboutMe.png" alt="">
   </section>
-  
+   <div class="nav">
+	 
+	   <a href="index.html"><span><< <span> Back<span></a>
+
+	 </div>
+
+	 
   
   </body>
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+<script>
+   $("html").niceScroll();
+</script>
+
   <footer>
   </footer>
