@@ -1,6 +1,6 @@
 ﻿/*work page style goes here */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
 
 
 a{
@@ -14,7 +14,7 @@ html, body{
   font-size:12px;
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
-  font-weight:100;
+  font-weight:300;
   height:100%;
 }
 
@@ -405,9 +405,10 @@ hr{
 }
 
 .workWrapper p{
-  
+   color:#000000;
    text-align:left;
-   font-size:1.8em;
+   font-size:1.3em;
+   line-height:26px;
    
 }
 
@@ -425,10 +426,6 @@ h4{
    width:50%;
    margin-left:10%;
    margin-top:100px;
-}
-
-.isensor p{
-   text-indent:1em;
 }
 
 
