@@ -5,7 +5,7 @@
  */
 /* Font Google - strong reaload time */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
 
 
@@ -50,7 +50,7 @@ html,body,div,section,p{
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   color:#F3F3F3;
-  font-weight:400;
+  font-weight:300;
   height:100%;
 }
 
@@ -460,15 +460,10 @@ video#bgvid {
 }
 
 .about-me p{
-  text-align:center;
-  font-size:14px;
-  width:250px;
-  margin:30px auto;
-  color:#a4a4a4;
+ 
   line-height:26px;
   letter-spacing:0;
-  position:relative;
-  font-weight:300;
+  
 }
 
 
@@ -1221,7 +1216,7 @@ input.submit{
 	text-indent:1.5em;
 	font-size:1.3em;
 	text-justify:inter-word;
-	font-weight:100;
+	font-weight:300;
 }
 
 #about-me p + p{
@@ -1233,7 +1228,6 @@ input.submit{
    margin-bottom:0px;
 }
 .menu-content li a{
-   font-weight:100;
    letter-spacing:1px;
    color:#AAA5A5;
 }
