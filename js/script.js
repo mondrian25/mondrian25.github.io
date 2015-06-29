@@ -102,3 +102,7 @@ $(".preloader").delay(1000).fadeOut("slow")
   }  
 
 });
+
+
+$("a").attr("target","_blank");
+$(".lightbox img").css("opacity","0.7");
