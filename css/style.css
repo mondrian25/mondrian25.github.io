@@ -694,7 +694,7 @@ video#bgvid {
   text-align:center;
   background: rgba(173,160,116,1);
   z-index: 2;
-  opacity:0;
+  opacity:0.3;
     -webkit-transition: all 1s ease-in;
 	-moz-transition: all  1s ease-in;
 	-ms-transition: all  1s ease-in;
