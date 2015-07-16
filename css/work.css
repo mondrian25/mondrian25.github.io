@@ -1,4 +1,4 @@
-﻿/*work page style goes here */
+/*work page style goes here */
 /*theme red: #be1e2d*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
@@ -17,7 +17,7 @@ html, body{
   font-size:12px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   font-weight:300;
-  height:100%;
+  width:100%;
 }
 
 /* Footer */
@@ -205,10 +205,10 @@ html, body{
 #work{
    background:#F3F3F3;
 }
+
 .workWrapper{
    display:block;
    width:100%;
-   height:100%;
    margin:0 auto;
    position:relative;
    background:#F3F3F3;
@@ -216,14 +216,14 @@ html, body{
 }
 
 .workCover{
-   left:-10px;
-   top:-50px;
-   width:101%;
+   left:0px;
+   top:0px;
+   width:100%;
    height:650px;
    margin:0 auto;
-   position:relative;
+   position:absolute;
    background:url(../img/portfolio/00.png);
-   background-position:center center;
+   background-size:cover;
 }
 
 .workCover .workImage{
@@ -232,6 +232,25 @@ html, body{
    top:0;
    position:abosolute;
 }
+
+.workTitle{
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+}
+
+#content{
+  left:0;
+  top:600px;
+  width:100%;
+  position:absolute;
+  margin:0 auto;
+  overflow-y:hidden;
+
+}
+
+
 .workContent{
    display:block;
    width:65%;
@@ -276,15 +295,16 @@ html, body{
 }
 
 .workDescpt{
-   
+   top:0px;
+   left:0px;
    display:block;
    width:100%;
-   height:100%;
+   height:650%;
    margin-left:auto;
    margin-right:auto;
    margin-top:3em;
    margin-bottom:100px;
-   position:relative;
+   position:absolute;
    color:black;
    padding:50px 0;
 }
@@ -315,6 +335,7 @@ html, body{
    font-family:'Roboto', sans-serif;
    font-weight:400;
 }
+
 
 .workDescpt h1{
    color:white;
@@ -381,8 +402,8 @@ html, body{
 
 .isensor p{
    font-size:1.5em;
-   text-align:center;
-   
+   text-align:left; 
+   text-indent:2em;
    margin-left:auto;
    margin-right:auto;
 }
@@ -421,6 +442,10 @@ h4{
    font-size:2.5em;
    font-family:Roboto, sans-serif;
    font-weight:700;
+}
+
+h4 span{
+  font-weight:800;
 }
 
 .isensor{
@@ -487,4 +512,23 @@ and (max-width: 800px){
 
 .back a:hover{
    color:white;
+}
+
+.email img{
+  width:auto;
+  height:auto;
+  position:relative;
+
+}
+
+
+.half img{
+  width:auto;
+  height:auto;
+  position:relative;
+
+}
+
+.footerWork{
+  position: relative;
 }
