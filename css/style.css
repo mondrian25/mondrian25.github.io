@@ -4167,3 +4167,14 @@ blockquote.quote footer:before {
 .portfolio-slide .nebular img{
   box-shadow:0 0 0;
 }
+
+
+.title-inner{
+  background:url(../images/pattern/myPhoto.png);
+}
+
+.aboutMePic{
+  box-shadow:none;
+  width:60%;
+  margin:0 auto;
+}
