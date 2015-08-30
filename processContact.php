@@ -1,18 +1,18 @@
 <?php
 
 // Clean up the input values
-foreach($_POST as $key => $value) {
+foreach($_GET as $key => $value) {
 	if(ini_get('magic_quotes_gpc'))
-		$_POST[$key] = stripslashes($_POST[$key]);
+		$_GET[$key] = stripslashes($_GET[$key]);
 	
-	$_POST[$key] = htmlspecialchars(strip_tags($_POST[$key]));
+	$_GET[$key] = htmlspecialchars(strip_tags($_GET[$key]));
 }
 
 // Assign the input values to variables for easy reference
-$name = $_POST["name"];
-$subject = $_POST["subject"];
-$email = $_POST["email"];
-$message = $_POST["message"];
+$name = $_GET["name"];
+$subject = $_GET["subject"];
+$email = $_GET["email"];
+$message = $_GET["message"];
 // Test input values for errors
 $errors = array();
 
