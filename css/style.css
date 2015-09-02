@@ -4178,3 +4178,11 @@ blockquote.quote footer:before {
   width:60%;
   margin:0 auto;
 }
+
+.illustration img{
+  height:auto;
+  width:45%;
+  margin-left:2%;
+  margin-top:2%;
+  float:left;
+}
