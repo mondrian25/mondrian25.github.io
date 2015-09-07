@@ -4162,7 +4162,8 @@ blockquote.quote footer:before {
 }  
 
 .nebular img:nth-child(2){
-   margin-left: 8%;
+  width:100%;
+  margin-left:0;
 } 
 .portfolio-slide .nebular img{
   box-shadow:0 0 0;
@@ -4185,4 +4186,11 @@ blockquote.quote footer:before {
   margin-left:2%;
   margin-top:2%;
   float:left;
+}
+
+.title-inner-about{
+  background: #252525 url(../images/pattern/aboutME.jpg) repeat top left;
+  padding: 9px;
+  margin-bottom: 54px;
+  margin-top: 12px;
 }
